@@ -1,0 +1,2 @@
+# ViewControllerOfLifeCycle
+ViewController的生命周期
