@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84E74824233B87DF00F94DCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E74823233B87DF00F94DCD /* AppDelegate.m */; };
+		84E74827233B87DF00F94DCD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E74826233B87DF00F94DCD /* SceneDelegate.m */; };
+		84E7482A233B87DF00F94DCD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E74829233B87DF00F94DCD /* ViewController.m */; };
+		84E7482D233B87DF00F94DCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E7482B233B87DF00F94DCD /* Main.storyboard */; };
+		84E7482F233B87E200F94DCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E7482E233B87E200F94DCD /* Assets.xcassets */; };
+		84E74832233B87E200F94DCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E74830233B87E200F94DCD /* LaunchScreen.storyboard */; };
+		84E74835233B87E200F94DCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E74834233B87E200F94DCD /* main.m */; };
+		84E7483F233B87E300F94DCD /* ViewController_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E7483E233B87E300F94DCD /* ViewController_____Tests.m */; };
+		84E7484A233B87E300F94DCD /* ViewController_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E74849233B87E300F94DCD /* ViewController_____UITests.m */; };
+		84E74859233BA13D00F94DCD /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E74858233BA13D00F94DCD /* TableViewCell.m */; };
+		84E7485C233BA1DD00F94DCD /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E7485B233BA1DD00F94DCD /* View.m */; };
+		84E7485F233BA8C000F94DCD /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E7485E233BA8C000F94DCD /* SecondViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84E7483B233B87E300F94DCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84E74817233B87DF00F94DCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84E7481E233B87DF00F94DCD;
+			remoteInfo = "ViewController的生命周期";
+		};
+		84E74846233B87E300F94DCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84E74817233B87DF00F94DCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84E7481E233B87DF00F94DCD;
+			remoteInfo = "ViewController的生命周期";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84E7481F233B87DF00F94DCD /* ViewController的生命周期.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ViewController的生命周期.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E74822233B87DF00F94DCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84E74823233B87DF00F94DCD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84E74825233B87DF00F94DCD /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		84E74826233B87DF00F94DCD /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		84E74828233B87DF00F94DCD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84E74829233B87DF00F94DCD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84E7482C233B87DF00F94DCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84E7482E233B87E200F94DCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84E74831233B87E200F94DCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84E74833233B87E200F94DCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E74834233B87E200F94DCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84E7483A233B87E300F94DCD /* ViewController的生命周期Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ViewController的生命周期Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E7483E233B87E300F94DCD /* ViewController_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ViewController_____Tests.m"; sourceTree = "<group>"; };
+		84E74840233B87E300F94DCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E74845233B87E300F94DCD /* ViewController的生命周期UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ViewController的生命周期UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E74849233B87E300F94DCD /* ViewController_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ViewController_____UITests.m"; sourceTree = "<group>"; };
+		84E7484B233B87E300F94DCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E74857233BA13D00F94DCD /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		84E74858233BA13D00F94DCD /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		84E7485A233BA1DD00F94DCD /* View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		84E7485B233BA1DD00F94DCD /* View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+		84E7485D233BA8C000F94DCD /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		84E7485E233BA8C000F94DCD /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84E7481C233B87DF00F94DCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E74837233B87E300F94DCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E74842233B87E300F94DCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84E74816233B87DF00F94DCD = {
+			isa = PBXGroup;
+			children = (
+				84E74821233B87DF00F94DCD /* ViewController的生命周期 */,
+				84E7483D233B87E300F94DCD /* ViewController的生命周期Tests */,
+				84E74848233B87E300F94DCD /* ViewController的生命周期UITests */,
+				84E74820233B87DF00F94DCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84E74820233B87DF00F94DCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84E7481F233B87DF00F94DCD /* ViewController的生命周期.app */,
+				84E7483A233B87E300F94DCD /* ViewController的生命周期Tests.xctest */,
+				84E74845233B87E300F94DCD /* ViewController的生命周期UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84E74821233B87DF00F94DCD /* ViewController的生命周期 */ = {
+			isa = PBXGroup;
+			children = (
+				84E74822233B87DF00F94DCD /* AppDelegate.h */,
+				84E74823233B87DF00F94DCD /* AppDelegate.m */,
+				84E74825233B87DF00F94DCD /* SceneDelegate.h */,
+				84E74826233B87DF00F94DCD /* SceneDelegate.m */,
+				84E7485A233BA1DD00F94DCD /* View.h */,
+				84E7485B233BA1DD00F94DCD /* View.m */,
+				84E74828233B87DF00F94DCD /* ViewController.h */,
+				84E74829233B87DF00F94DCD /* ViewController.m */,
+				84E7485D233BA8C000F94DCD /* SecondViewController.h */,
+				84E7485E233BA8C000F94DCD /* SecondViewController.m */,
+				84E74857233BA13D00F94DCD /* TableViewCell.h */,
+				84E74858233BA13D00F94DCD /* TableViewCell.m */,
+				84E7482B233B87DF00F94DCD /* Main.storyboard */,
+				84E7482E233B87E200F94DCD /* Assets.xcassets */,
+				84E74830233B87E200F94DCD /* LaunchScreen.storyboard */,
+				84E74833233B87E200F94DCD /* Info.plist */,
+				84E74834233B87E200F94DCD /* main.m */,
+			);
+			path = "ViewController的生命周期";
+			sourceTree = "<group>";
+		};
+		84E7483D233B87E300F94DCD /* ViewController的生命周期Tests */ = {
+			isa = PBXGroup;
+			children = (
+				84E7483E233B87E300F94DCD /* ViewController_____Tests.m */,
+				84E74840233B87E300F94DCD /* Info.plist */,
+			);
+			path = "ViewController的生命周期Tests";
+			sourceTree = "<group>";
+		};
+		84E74848233B87E300F94DCD /* ViewController的生命周期UITests */ = {
+			isa = PBXGroup;
+			children = (
+				84E74849233B87E300F94DCD /* ViewController_____UITests.m */,
+				84E7484B233B87E300F94DCD /* Info.plist */,
+			);
+			path = "ViewController的生命周期UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84E7481E233B87DF00F94DCD /* ViewController的生命周期 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E7484E233B87E300F94DCD /* Build configuration list for PBXNativeTarget "ViewController的生命周期" */;
+			buildPhases = (
+				84E7481B233B87DF00F94DCD /* Sources */,
+				84E7481C233B87DF00F94DCD /* Frameworks */,
+				84E7481D233B87DF00F94DCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ViewController的生命周期";
+			productName = "ViewController的生命周期";
+			productReference = 84E7481F233B87DF00F94DCD /* ViewController的生命周期.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84E74839233B87E300F94DCD /* ViewController的生命周期Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E74851233B87E300F94DCD /* Build configuration list for PBXNativeTarget "ViewController的生命周期Tests" */;
+			buildPhases = (
+				84E74836233B87E300F94DCD /* Sources */,
+				84E74837233B87E300F94DCD /* Frameworks */,
+				84E74838233B87E300F94DCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84E7483C233B87E300F94DCD /* PBXTargetDependency */,
+			);
+			name = "ViewController的生命周期Tests";
+			productName = "ViewController的生命周期Tests";
+			productReference = 84E7483A233B87E300F94DCD /* ViewController的生命周期Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84E74844233B87E300F94DCD /* ViewController的生命周期UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E74854233B87E300F94DCD /* Build configuration list for PBXNativeTarget "ViewController的生命周期UITests" */;
+			buildPhases = (
+				84E74841233B87E300F94DCD /* Sources */,
+				84E74842233B87E300F94DCD /* Frameworks */,
+				84E74843233B87E300F94DCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84E74847233B87E300F94DCD /* PBXTargetDependency */,
+			);
+			name = "ViewController的生命周期UITests";
+			productName = "ViewController的生命周期UITests";
+			productReference = 84E74845233B87E300F94DCD /* ViewController的生命周期UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84E74817233B87DF00F94DCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "王天亮";
+				TargetAttributes = {
+					84E7481E233B87DF00F94DCD = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					84E74839233B87E300F94DCD = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 84E7481E233B87DF00F94DCD;
+					};
+					84E74844233B87E300F94DCD = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 84E7481E233B87DF00F94DCD;
+					};
+				};
+			};
+			buildConfigurationList = 84E7481A233B87DF00F94DCD /* Build configuration list for PBXProject "ViewController的生命周期" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84E74816233B87DF00F94DCD;
+			productRefGroup = 84E74820233B87DF00F94DCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84E7481E233B87DF00F94DCD /* ViewController的生命周期 */,
+				84E74839233B87E300F94DCD /* ViewController的生命周期Tests */,
+				84E74844233B87E300F94DCD /* ViewController的生命周期UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84E7481D233B87DF00F94DCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E74832233B87E200F94DCD /* LaunchScreen.storyboard in Resources */,
+				84E7482F233B87E200F94DCD /* Assets.xcassets in Resources */,
+				84E7482D233B87DF00F94DCD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E74838233B87E300F94DCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E74843233B87E300F94DCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84E7481B233B87DF00F94DCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E7482A233B87DF00F94DCD /* ViewController.m in Sources */,
+				84E74824233B87DF00F94DCD /* AppDelegate.m in Sources */,
+				84E7485C233BA1DD00F94DCD /* View.m in Sources */,
+				84E7485F233BA8C000F94DCD /* SecondViewController.m in Sources */,
+				84E74835233B87E200F94DCD /* main.m in Sources */,
+				84E74859233BA13D00F94DCD /* TableViewCell.m in Sources */,
+				84E74827233B87DF00F94DCD /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E74836233B87E300F94DCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E7483F233B87E300F94DCD /* ViewController_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E74841233B87E300F94DCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E7484A233B87E300F94DCD /* ViewController_____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84E7483C233B87E300F94DCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84E7481E233B87DF00F94DCD /* ViewController的生命周期 */;
+			targetProxy = 84E7483B233B87E300F94DCD /* PBXContainerItemProxy */;
+		};
+		84E74847233B87E300F94DCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84E7481E233B87DF00F94DCD /* ViewController的生命周期 */;
+			targetProxy = 84E74846233B87E300F94DCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84E7482B233B87DF00F94DCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84E7482C233B87DF00F94DCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84E74830233B87E200F94DCD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84E74831233B87E200F94DCD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84E7484C233B87E300F94DCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84E7484D233B87E300F94DCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84E7484F233B87E300F94DCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ViewController的生命周期/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--.ViewController-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84E74850233B87E300F94DCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ViewController的生命周期/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--.ViewController-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84E74852233B87E300F94DCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ViewController的生命周期Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--.ViewController-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViewController的生命周期.app/ViewController的生命周期";
+			};
+			name = Debug;
+		};
+		84E74853233B87E300F94DCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ViewController的生命周期Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--.ViewController-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViewController的生命周期.app/ViewController的生命周期";
+			};
+			name = Release;
+		};
+		84E74855233B87E300F94DCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ViewController的生命周期UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--.ViewController-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ViewController的生命周期";
+			};
+			name = Debug;
+		};
+		84E74856233B87E300F94DCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ViewController的生命周期UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--.ViewController-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ViewController的生命周期";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84E7481A233B87DF00F94DCD /* Build configuration list for PBXProject "ViewController的生命周期" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E7484C233B87E300F94DCD /* Debug */,
+				84E7484D233B87E300F94DCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E7484E233B87E300F94DCD /* Build configuration list for PBXNativeTarget "ViewController的生命周期" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E7484F233B87E300F94DCD /* Debug */,
+				84E74850233B87E300F94DCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E74851233B87E300F94DCD /* Build configuration list for PBXNativeTarget "ViewController的生命周期Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E74852233B87E300F94DCD /* Debug */,
+				84E74853233B87E300F94DCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E74854233B87E300F94DCD /* Build configuration list for PBXNativeTarget "ViewController的生命周期UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E74855233B87E300F94DCD /* Debug */,
+				84E74856233B87E300F94DCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84E74817233B87DF00F94DCD /* Project object */;
+}
